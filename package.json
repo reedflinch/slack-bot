@@ -1,0 +1,11 @@
+{
+  "name": "SlackReleaseBot",
+  "version": "0.0.1",
+  "description": "Slack bot for querying service release status",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "3.8.1",
+    "superagent": "3.5.0"
+  }
+}
