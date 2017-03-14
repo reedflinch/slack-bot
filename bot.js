@@ -13,7 +13,7 @@ class Bot {
 
     this.slack = new RtmClient(slackToken, {
       // Sets the level of logging we require
-      logLevel: 'error',
+      logLevel: 'info',
       // Initialize a data store for our client,
       // this will load additional helper
       // functions for the storing and retrieval of data
